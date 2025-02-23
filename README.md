@@ -1,7 +1,7 @@
 
 # Stock Portfolio Analyzer
 
-Stock Portfolio Analyzer is a Streamlit web application. The system extracts text from the uploaded PDF, analyzes the portfolio using Groq API, and provides stock recommendations. The recommendataions inculde which stock to keep, sell and buy along wit suggested qantities.
+Stock Portfolio Analyzer is a Streamlit web application. The system extracts text from the uploaded PDF, analyzes the portfolio using Groq API, and provides stock recommendations. The recommendations include which stock to keep, sell and buy along with suggested quantities.
 
 
 ## Features
@@ -9,7 +9,7 @@ Stock Portfolio Analyzer is a Streamlit web application. The system extracts tex
 - Upload a **portfolio PDF** for analysis.
 - Extract stock information from the uploaded file.
 - Analyzes the portfolio using Groq API's **Llama-3.3-70B-Versatilie** model.
-- Recieve detailed stock recommendataion in **table format**.
+- Receive detailed stock recommendations in **table format**.
 - Interactive web-based interface using **streamlit**.
 
 
@@ -40,7 +40,7 @@ git clone https://github.com/INEcodes/FOSSHack.git
 pip install -r requirements.txt
 ```
 
-3. Create a `.env` file and add you Groq API key:
+3. Create a `.env` file and add your Groq API key:
 
 ```bash
 groq_api = your_api_key_here
@@ -57,19 +57,19 @@ streamlit run app.py
 
 3. Wait for the system to extract the text and analyze the portfolio.
 
-4. View stock recommendation in table format.
+4. View stock recommendations in table format.
 ## Output
 
 - Upload your PDF document
 
 [![image.png](https://i.postimg.cc/bJQkpZKP/image.png)](https://postimg.cc/LY8nV89Q)
 
-- get detailed infomation on your portfolio
+- get detailed information on your portfolio
 
 [![image.png](https://i.postimg.cc/fRLcmT07/image.png)](https://postimg.cc/ykM3zKjW)
 ## Limitations
 
-- The quality of analysis depends on the protfolio text extracted from the PDF.
+- The quality of the analysis depends on the portfolio text extracted from the PDF.
 
 - The API response format should be structured properly for better readability.
 
