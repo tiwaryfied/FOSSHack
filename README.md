@@ -26,25 +26,28 @@ To run the application you need:
 - Streamlit
 - Groq API key
 - PyPDF2 for extracting text from PDFs.
-## Installation
 
-1. Clone the repository:
+##  Features
 
-```bash
-git clone https://github.com/INEcodes/FOSSHack.git
-```
+-  **Real-time Portfolio Analysis** – Track and analyze assets with live data.
+-  **Investment Insights** – Get detailed reports on gains, losses, and trends.
+-  **Multi-Asset Support** – Manage multiple assets in one place.
+-  **User-friendly Interface** – Intuitive UI for easy navigation.
+-  **Secure & Private** – Ensuring user data privacy.
 
-2. Install required dependencies:
+##  Tech Stack
 
-```bash
-pip install -r requirements.txt
-```
+| Technology       | Purpose                        |
+|-----------------|--------------------------------|
+| **Next.js**     | Frontend framework            |
+| **Tailwind CSS** | UI styling                    |
+| **Node.js**     | Backend runtime               |
+| **Express.js**  | Backend framework             |
+| **MongoDB**     | Database for storing data     |
+| **Firebase Auth** | User authentication         |
+| **Axios**       | API handling                  |
+| **Chart.js**    | Data visualization            |
 
-3. Create a `.env` file and add your Groq API key:
-
-```bash
-groq_api = your_api_key_here
-```
 ## Usage
 
 1. Run the Streamlit app:
@@ -75,10 +78,5 @@ streamlit run app.py
 
 - Requires a valid Groq API key for analysis.
 
-## Authors
-
-- [Abhay Singh Chauhan](https://github.com/INEcodes)
-- [Abhinav Tiwari](https://github.com/tiwaryfied)
-- [Amogh Biradar](https://github.com/RACodes-dev)
-- [Dev Deep Narayan](https://github.com/Haiirohito)
+Made with ❤️ by [Abhay Singh Chauhan](https://github.com/INEcodes) , [Abhinav Tiwari](https://github.com/tiwaryfied) , [Dev Deep Narayan](https://github.com/Haiirohito) , [Amogh Umesh Biradar](https://github.com/RACCodes-dev)
 
