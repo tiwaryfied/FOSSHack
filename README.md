@@ -1,6 +1,6 @@
 # Portfolio Tracker
 
-A **Portfolio Tracker** designed for the **FOSS Hackathon**, enabling users to manage and analyze their investments efficiently. This project provides real-time insights, seamless asset tracking, and a user-friendly interface for better financial management.
+A **Portfolio Tracker** designed for the **FOSS Hackathon**, enabling users to manage and analyze their investments efficiently. This project provides real-time insights, seamless asset tracking and a user-friendly interface for better financial management.
 
 ##  Features
 
